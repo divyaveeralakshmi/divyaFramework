@@ -19,7 +19,7 @@ public class CreateLead extends Annotattion{
 		WebElement elecompanyname = locateElement("id","createLeadForm_companyName1");
 		type(elecompanyname, "CGI India Pvt Ltd"); //divya change IBM to CGI
 		WebElement elefirstname = locateElement("id","createLeadForm_firstName");
-		type(elefirstname, "mathura");
+		type(elefirstname, "Veera");  //ganesh changed mathura to Veera
 		WebElement elelastname = locateElement("id","createLeadForm_lastName");
 		type(elelastname, "meenakshisundaram"); //divya change lastname ganesh to ms
 		WebElement elesource = locateElement("id","createLeadForm_dataSourceId");
