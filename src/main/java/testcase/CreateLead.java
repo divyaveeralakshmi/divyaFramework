@@ -21,7 +21,7 @@ public class CreateLead extends Annotattion{
 		WebElement elefirstname = locateElement("id","createLeadForm_firstName");
 		type(elefirstname, "mathura");
 		WebElement elelastname = locateElement("id","createLeadForm_lastName");
-		type(elelastname, "ganesh");
+		type(elelastname, "meenakshisundaram"); //divya change lastname ganesh to ms
 		WebElement elesource = locateElement("id","createLeadForm_dataSourceId");
 		selectDropDownUsingText(elesource,"Direct Mail");
 		WebElement elephoneno = locateElement("id","createLeadForm_primaryPhoneNumber");
