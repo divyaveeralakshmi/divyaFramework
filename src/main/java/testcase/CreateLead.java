@@ -17,7 +17,7 @@ public class CreateLead extends Annotattion{
 		click(elecreate);
 		
 		WebElement elecompanyname = locateElement("id","createLeadForm_companyName1");
-		type(elecompanyname, "IBM India Pvt Ltd");
+		type(elecompanyname, "CGI India Pvt Ltd"); //divya change IBM to CGI
 		WebElement elefirstname = locateElement("id","createLeadForm_firstName");
 		type(elefirstname, "mathura");
 		WebElement elelastname = locateElement("id","createLeadForm_lastName");
